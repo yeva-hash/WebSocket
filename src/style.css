@@ -1,0 +1,118 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    position: relative;
+    width: 950px;
+    height: 620px;
+    border-radius: 2px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+}
+#main {
+    height: 80%;
+}
+#main-chat {
+    height: 100%;
+    overflow:scroll ;
+}
+#main-right {
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+#active-users {
+    text-align: center;
+    padding-top: 20px;
+    height: 350px;
+    overflow: scroll;
+}
+
+#anonym-users {
+    text-align: center;
+    border-top: 1px solid lightgray;
+    padding-top: 10px
+}
+#text-message {
+    background-color: inherit;
+    width: 67%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    vertical-align: middle;
+    text-indent: 10px;
+}
+#button-message {
+    margin-left: 10px;
+    height: 40px;
+    width: 10%;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    background-color: inherit;
+    vertical-align: middle;
+}
+#button-message:active {
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.modal-title {
+    /* margin-left: auto; */
+    margin-left: 130px;
+}
+.modal-body {
+    text-align: center;
+}
+.modal-dialog {
+    background-color:whitesmoke;
+    border-radius: 7px;
+}
+.registartion-button {
+    border: 1px solid lightgrey;
+    margin-right: 184.5px;
+}
+.container-none {
+    display: none;
+}
+.message-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    height: 25px;
+    /* word-wrap: break-word; */
+} 
+.user-name {
+    font-weight: bold;
+}
+.time {
+    margin-left: auto;
+    color: rgb(155, 155, 155);
+}
+span {
+    font-style: italic;
+    color: lightgrey;
+}
+
+.channel-container {
+    width: 250px;
+    height: 203px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+}
+.channel {
+    padding: 13px;
+    border-bottom: 0.01rem solid lightgray;
+    margin:0
+}
+.channel:hover {
+    background-color: lightgray;
+}
+.user-message-container {
+    display: flex;
+    margin: 10px 10px;
+    /* border: 1px solid black; */
+}
